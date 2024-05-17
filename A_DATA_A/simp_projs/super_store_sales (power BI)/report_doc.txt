@@ -1,0 +1,122 @@
+Feedback Type:
+Frown (Error)
+
+Timestamp:
+2024-02-07T10:47:06.3946572Z
+
+Local Time:
+2024-02-07T16:17:06.3946572+05:30
+
+Session ID:
+c0ed9c09-2b56-4072-a279-fbbd7972f362
+
+Release:
+December 2023
+
+Product Version:
+2.124.2028.0 (23.12) (x64)
+
+Stack Trace:
+System.ComponentModel.Win32Exception
+   at System.Windows.Forms.NativeWindow.CreateHandle(CreateParams cp)
+   at System.Windows.Forms.Control.CreateHandle()
+   at System.Windows.Forms.Control.get_Handle()
+   at Microsoft.Web.WebView2.WinForms.WebView2.<InitCoreWebView2Async>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PowerBI.Client.Windows.WebView2.WebView2BrowserWrapper.<Initialize>d__78.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PowerBI.Client.Windows.WebView2.WebView2BrowserWrapper.<ChainAfterInit>d__100.MoveNext()
+
+PowerBINonFatalError:
+{"AppName":"PBIDesktop","AppVersion":"2.124.2028.0","ModuleName":"Microsoft.Web.WebView2.WinForms.dll","Component":"Microsoft.Web.WebView2.WinForms.WebView2+<InitCoreWebView2Async>d__24","Error":"System.ComponentModel.Win32Exception - 0x00000057","MethodDef":"MoveNext","ErrorOffset":"1152","ErrorCode":""}
+
+InnerException0.Stack Trace:
+   at System.Windows.Forms.NativeWindow.CreateHandle(CreateParams cp)
+   at System.Windows.Forms.Control.CreateHandle()
+   at System.Windows.Forms.Control.get_Handle()
+   at Microsoft.Web.WebView2.WinForms.WebView2.<InitCoreWebView2Async>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PowerBI.Client.Windows.WebView2.WebView2BrowserWrapper.<Initialize>d__78.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PowerBI.Client.Windows.WebView2.WebView2BrowserWrapper.<ChainAfterInit>d__100.MoveNext()
+
+OS Version:
+Microsoft Windows NT 10.0.22621.0 (x64 en-US)
+
+CLR Version:
+4.8 or later [Release Number = 533320]
+
+Peak Virtual Memory:
+70.4 GB
+
+Private Memory:
+509 MB
+
+Peak Working Set:
+472 MB
+
+IE Version:
+11.1.22621.0
+
+User ID:
+f94affcd-2962-46b8-b156-bfa5e6c6f4a1
+
+Workbook Package Info:
+1* - en-IN, Query Groups: 0, fastCombine: Disabled, runBackgroundAnalysis: True.
+
+Telemetry Enabled:
+True
+
+Model Default Mode:
+Empty
+
+Model Version:
+PowerBI_V1
+
+Enabled Preview Features:
+PBI_sparklines
+PBI_scorecardVisual
+PBI_NlToDax
+PBI_fieldParametersSuperSwitch
+PBI_setLabelOnExportPdf
+PBI_dynamicFormatString
+PBI_oneDriveSave
+PBI_oneDriveShare
+PBI_newCard
+PBI_buttonSlicerAuthoring
+
+Disabled Preview Features:
+PBI_shapeMapVisualEnabled
+PBI_SpanishLinguisticsEnabled
+PBI_qnaLiveConnect
+PBI_b2bExternalDatasetSharing
+PBI_enhancedTooltips
+PBI_angularRls
+PBI_onObject
+PBI_backstageUI
+PBI_useModernPublishDialogs
+PBI_gitIntegration
+PBI_modelExplorer
+PBI_daxQueryView
+PBI_aiNarrativesVisual
+PBI_qnaImproveLsdlCopilot
+
+Disabled DirectQuery Options:
+TreatHanaAsRelationalSource
+
+Cloud:
+GlobalCloud
+
+DPI Scale:
+125%
+
+Supported Services:
+Power BI
